@@ -1,10 +1,9 @@
 # ZStringBuilder
 SwiftForth SWOOP class for building strings large or small, inspired by .NET StringBuilder class
 
-\ ***********************************************
-\ **  Inspired by .NET StringBuilder class     **
-\ **  by Robert Dickow, aka Budsy              **
-\ ***********************************************
+***********************************************
+**  by Robert Dickow, aka Budsy              **
+***********************************************
 
 ## License
 
@@ -12,7 +11,7 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 ## Requirements
 
-SwiftForth or compatible Forth system
+SwiftForth 32/64 or compatible Forth system
 
 Tested with:
 
