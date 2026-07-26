@@ -37,7 +37,7 @@ PROTECTED
   ;
 
   \ ------------------------------------------------------------
-  \ Ensure capacity for at least N bytes (including terminator)
+  \ Ensure capacity for at least 'needed' bytes (including terminator)
   \ ------------------------------------------------------------
   : _ENSURE ( needed -- )
     dup cap @ < if drop exit then
@@ -77,7 +77,6 @@ PROTECTED
     0 _BUFF@ c!  \ empty string
     len off   
   ;
-  \ DEBUG]
 
   \ --------------------------
   \ CLEAR (keep memory)
