@@ -33,7 +33,7 @@ include ZSTRING-BUILDER-CLASS
   loop
   cr 
   str type
- \ str free 
+  str free 
 ;  
 
 demo
