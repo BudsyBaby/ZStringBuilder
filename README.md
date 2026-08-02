@@ -15,7 +15,7 @@ SwiftForth 32/64 or compatible Forth system
 
 Tested with:
 
-- SwiftForth 4.1.8
+- SwiftForth 4.1.9
 
 ## Features
 
@@ -29,7 +29,6 @@ Unlimited string size (except by available RAM of course.)
 - `zstring-builder-class.f` - class code.
 - `test.f` - simple test.
 - `README.md` - this readme file.
-
 
 ## general usage:
 
@@ -73,4 +72,4 @@ str length cr .  \ print the length of the string.
 str type \ prints the string to the console.
 str free \ frees allocated memory. Do when done to free allocated memory resources.
 
-\ See SwiftForth documentation for how to use dynamic object declaration and use.
+See SwiftForth documentation for how to use dynamic object declaration and use.
