@@ -22,8 +22,8 @@ include ZSTRING-BUILDER-CLASS
   ;
 }
 
-\ build a long string by appending
-\ and append
+\ build and display long string with append
+\ and appendline words.
  : demo   ( -- )
   str init  
   z" Silly Pickles!!!" 
