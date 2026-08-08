@@ -61,18 +61,18 @@ include demo
 
 ## Example declaration and interactive usage:
 
-include ZSTRING-BUILDER-CLASS
+    include ZSTRING-BUILDER-CLASS
 
-zstring-builder builds str \ declare static instance 'str' word
+    zstring-builder builds str \ declare static instance 'str' word
 
-str init \ first call the init method
-z" Hello World!" str appendline \ append string to empty buffer
-str length cr .  \ print the length of the string.
-str type \ prints the string to the console.
-z"  No worries " str append
-z" at all!" str appendline
-str type
-str free \ frees allocated memory. Do when done to free allocated memory resources.
+    str init \ first call the init method
+    z" Hello World!" str appendline \ append string to empty buffer
+    str length cr .  \ print the length of the string.
+    str type \ prints the string to the console.
+    z"  No worries " str append
+    z" at all!" str appendline
+    str type
+    str free \ frees allocated memory. Do when done to free allocated memory resources.
 
 
 See SwiftForth documentation for how to use dynamic object declaration and use.
